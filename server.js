@@ -14,8 +14,8 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 
-app.get('/ui/back.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'back.jpg'));
+app.get('/ui/Flash.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Flash.jpg'));
 });
 
 
