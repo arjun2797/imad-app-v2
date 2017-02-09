@@ -16,7 +16,7 @@ body {
     font-weight: bold;
 }
 
-.img-medium {
-    height: 200px;
+.img-op {
+    opacity: 0.5;
 }
 
