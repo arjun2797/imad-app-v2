@@ -1,4 +1,4 @@
-var button= document.getElementById("counter");
+var button= document.getElementById('counter');
 button.onClick= function(){
 
     var request=new XMLHttpRequest(); 
@@ -9,14 +9,13 @@ button.onClick= function(){
         {
             if(request.status === 200) {
                 var counter= request.responseText;
-                var span=document.getElementById("count");
-                span.innerHTML=counter.toString();
-                
+                var span= document.getElementById("count");
+                span.innerHTML= counter.toString();
             }
         }
     };
     
-    request.open('GET','http://arjun2797.imad.hasura-app.io/counter',true);
+    request.open('GET','http://arjun2797.imad.hasura-app.io/counter', true);
     request.send(null);
    
 };
