@@ -19,7 +19,7 @@ button.onClick= function(){
         }
     };
     
-    req.open('GET','http://arjun2797.cloud.imad.hasura.io/counter',true);
+    req.open('GET','http://arjun2797.imad.hasura-app.io/counter',true);
     req.send(null);
    
 };
