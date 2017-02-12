@@ -22,7 +22,8 @@ request.onreadystatechange = function ()
         }
     }
 
-}
-request.open('GET',"http:/http://arjun2797.imad.hasura-app.io/counter",true);
+};
+
+request.open('GET',"http://arjun2797.imad.hasura-app.io/counter",true);
 request.send(null);
 };
