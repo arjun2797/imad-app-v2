@@ -6,7 +6,7 @@ button.onClick= function(){
     
     request.onreadystatechange = function()
     {
-        if (request.readystate === XMLHttpRequest.DONE)
+        if (request.readyState === XMLHttpRequest.DONE)
         {
             if(request.status === 200)
             {
@@ -18,7 +18,7 @@ button.onClick= function(){
         }
     };
     
-    request.open('GET','http://arjun2797.imad.hasura-app.io/counter',true);
+    request.open('GET',"http://arjun2797.imad.hasura-app.io/counter",true);
     request.send(null);
    
 };
