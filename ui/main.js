@@ -7,13 +7,13 @@ button.onClick= function(){
     
     req.onreadystatechange = function()
     {
-        if (req.readystatechange == XMLHttpRequest.DONE)
+        if (req.readystate == XMLHttpRequest.DONE)
         {
             if(req.status == 200)
             {
                 var counter= req.responseText;
                 var span=document.getElementById("count");
-                span.innerHTML=count.toString();
+                span.innerHTML=counter.toString();
                 
             }
         }
