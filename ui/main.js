@@ -1,4 +1,3 @@
-console.log('Loaded!');
 var button= document.getElementById("counter");
 button.onClick= function(){
 
@@ -18,7 +17,7 @@ button.onClick= function(){
         }
     };
     
-    request.open('GET',"http://arjun2797.imad.hasura-app.io/counter",true);
+    request.open("GET","http://arjun2797.imad.hasura-app.io/counter",true);
     request.send(null);
    
 };
